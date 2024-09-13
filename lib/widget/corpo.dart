@@ -67,6 +67,7 @@ class CorpoEstado extends State<Corpo> {
           Padding(
               padding: EdgeInsets.all(30),
               child: TextField(
+                enabled: false,
                 style: TextStyle(color: Colors.black, fontSize: 35.0),
                 textAlign: TextAlign.end,
                 controller: _controller,

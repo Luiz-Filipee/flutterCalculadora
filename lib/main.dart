@@ -6,12 +6,15 @@ void main() {
 }
 
 class App extends StatelessWidget {
+  final String _title = "Calculadora";
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Calculadora"),
+          backgroundColor: Colors.purple,
+          foregroundColor: Colors.white,
+          title: Text(_title),
         ),
         body: Corpo(),
       ),

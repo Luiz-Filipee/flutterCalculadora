@@ -27,10 +27,14 @@ class Calculadora {
         return primeiroValor + segundoValor;
       case '-':
         return primeiroValor - segundoValor;
-      case '*':
+      case 'x':
         return primeiroValor * segundoValor;
       case '/':
-        return primeiroValor / segundoValor;
+        if (segundoValor == 0) {
+          return 0;
+        } else {
+          return primeiroValor / segundoValor;
+        }
       default:
         return 0;
     }
