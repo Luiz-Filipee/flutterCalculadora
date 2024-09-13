@@ -1,16 +1,41 @@
-# calculadoraapp
+# Calculadora em Flutter
 
-A new Flutter project.
+Este é um projeto de uma calculadora básica desenvolvida em Flutter. Ele permite realizar operações matemáticas simples como adição, subtração, multiplicação e divisão. A interface é interativa, com botões de números e operações ajustados para uma melhor usabilidade.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Realiza operações básicas: soma, subtração, multiplicação e divisão.
+- Interface gráfica simples e responsiva.
+- Botões numéricos e operacionais com tamanho adequado.
+- Funções de limpar (`C`) e calcular o resultado (`=`).
 
-A few resources to get you started if this is your first Flutter project:
+## Capturas de Tela
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*(Adicione suas capturas de tela aqui após rodar o projeto)*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias Utilizadas
+
+- **Flutter**: Framework para desenvolvimento de aplicativos móveis multiplataforma.
+- **Dart**: Linguagem de programação utilizada no Flutter.
+
+## Estrutura do Projeto
+- **lib/ ├── main.dar**t # Arquivo principal que contém a lógica da calculadora e a interface do usuário.
+  - - **lib/model ├── calculadora.dar**t # classe model que contem as regras de negocio da calculadora.
+  - - **lib/widget ├── corpo.dar**t # Arquivo que contem o corpo do app.
+
+## Instalação
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+### 1. Pré-requisitos
+
+- Flutter SDK (siga [este guia](https://docs.flutter.dev/get-started/install) para instalar)
+- Dart SDK (incluso no Flutter)
+
+### 2. Clonar o Repositório
+
+Execute o seguinte comando no seu terminal:
+
+```bash
+git clone https://github.com/seuusuario/calculadora-flutter.git
+cd calculadora-flutter
